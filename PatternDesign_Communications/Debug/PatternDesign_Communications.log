@@ -1,0 +1,15 @@
+﻿  CommManager.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+c:\users\danig\documents\visual studio 2017\projects\patterndesign_communications\commmanager.cpp(37): warning C4018: '<': signed/unsigned mismatch
+  CommThreads.cpp
+  Launcher.cpp
+  Message.cpp
+  MessageFactory.cpp
+  MessageType1.cpp
+  MessageType2.cpp
+  Generating Code...
+c:\users\danig\documents\visual studio 2017\projects\patterndesign_communications\messagefactory.cpp(39): warning C4715: 'MessageFactory::createMessage': not all control paths return a value
+LINK : fatal error LNK1104: cannot open file 'libboost_regex-vc141-mt-gd-x32-1_72.lib'

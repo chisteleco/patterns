@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{2669a062-56f4-4233-9c40-99f270d75e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{d813fb64-2c67-4275-8f16-7dae26e63cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages\Types">
+      <UniqueIdentifier>{10902c6c-7f9e-4f72-a377-e9d8e596ad0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="CommManager.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageFactory.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageType1.cpp">
+      <Filter>Messages\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageType2.cpp">
+      <Filter>Messages\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Messages\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="CommThreads.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="CommManager.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageFactory.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Messages\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageType1.h">
+      <Filter>Messages\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageType2.h">
+      <Filter>Messages\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="CommThreads.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
